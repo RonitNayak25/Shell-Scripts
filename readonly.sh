@@ -1,0 +1,3 @@
+NAME="KIIT"
+readonly NAME
+NAME="KIIT UNIVERSITY"

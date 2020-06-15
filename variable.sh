@@ -1,0 +1,2 @@
+NAME="Ronit"
+echo $NAME
