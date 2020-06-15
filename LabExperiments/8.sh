@@ -18,16 +18,5 @@ do
     read array2[$i]
 done
 
-echo "Merged Array = "
-
-for((i=0;i<$n2;i++))
-do
-    x=$(($i+$n1))
-    array1[$x] = ${array2[i]}
-done
-
-for ((i=0;i<${#array1[@]};i++))
-do
-    echo -n "${array1[i]} "
-done
-echo ""
+c=("${array1[@]}" "${array2[*]}")
+echo "Merged Array = ${c[@]}"
